@@ -17,7 +17,7 @@ sol_ex2.2 <- data.frame(FailureTime, Temp, Factory = as.factor(Factory))
 print(summary(sol_ex2.2))
 
 # grava um arquivo CSV com o conteudo do dataframe
-write.csv(sol_ex2.2, file = "ch02/ch02_ex2_2_r.csv")
+write.csv(sol_ex2.2, file = "ch02/ch02_ex2.2_r.csv")
 
 # Ex 2.3
 
